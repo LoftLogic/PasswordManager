@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #203040 0%, #0f172a 100%);
+}
