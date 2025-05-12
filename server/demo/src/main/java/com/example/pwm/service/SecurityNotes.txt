@@ -1,0 +1,5 @@
+Method:
+- Use Hashing to ensure the user's master password is not saved (in case of data breach/leak).
+    - PBKDF in this case
+- Use salting, a random string appended to the password
+- Advanced Encryption Standard for the vault key
